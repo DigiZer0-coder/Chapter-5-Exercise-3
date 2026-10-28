@@ -26,9 +26,9 @@ int main()
 		cin >> time;
 	}
 
-	for (time = 1; time <= 10; time++)
+	for (int hour = 1; hour <= time; hour++)
 	{
-		distance = speed * time;
-		cout << time << "            " << distance << endl;
+		distance = speed * hour;
+		cout << hour << "            " << distance << endl;
 	}
 }
